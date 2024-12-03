@@ -1,0 +1,67 @@
+#luceUno{
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+#luceDue{
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+#luceTre{
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+#luceQuattro{
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+}
+
+.neroBg{
+    background-color: black;
+}
+
+.redBg{
+    background-color: red;
+}
+
+.greenBg{
+    background-color: green;
+}
+
+.luci{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-width:440px) {
+    #luceUno{
+        height: 15vw;
+        margin-bottom: 20px;
+        border-radius: 100px;
+    }
+    
+    #luceDue{
+        height: 15vw;
+        margin-bottom: 20px;
+        border-radius: 100px;
+    }
+    
+    #luceTre{
+        height: 15vw;
+        margin-bottom: 20px;
+        border-radius: 100px;
+    }
+    
+    #luceQuattro{
+        height: 15vw;
+        margin-bottom: 20px;
+        border-radius: 100px;
+    }
+}
