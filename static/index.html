@@ -10,38 +10,66 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="title col-6 offset-4">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="title col-md-7">
                     <h1>
                         SFIDA I TUOI RIFLESSI
                     </h1>
             </div>
         </div>
-        <div class="row">
-            <div class="text col-5 offset-4">
+        <div class="row justify-content-center">
+            <div class="text col-md-4">
                     <p>
                         Testa i tuoi riflessi!!
                         Clicca il pulsante in TEMPO!!!
                     </p>
             </div>
         </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="luci col-7 offset-3">
-                <div id="luceUno" class="neroBg">
-                </div>
-                <div id="luceDue" class="neroBg">
-                </div>
-                <div id="luceTre" class="neroBg">
-                </div>
-                <div id="luceQuattro" class="neroBg">
+        <div class="row justify-content-center">
+            <div class="col-md-6 d-flex justify-content-center">
+                <div class="wrapper">
+                    <div class="luce neroBg">
+                        <div id="primaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="secondaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="terzaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="quartaFila" class="lampadina defaultBg">
+                        </div>
+                    </div> 
+                    <div class="luce neroBg">
+                        <div id="primaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="secondaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="terzaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="quartaFila" class="lampadina defaultBg">
+                        </div>
+                    </div>
+                    <div class="luce neroBg">
+                        <div id="primaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="secondaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="terzaFila" class="lampadina defaultBg">
+                        </div>
+                        <div id="quartaFila" class="lampadina defaultBg">
+                        </div>
+                    </div>  
                 </div>
             </div>
-            <div class="row">
-                <div class="botton">
-                    <a>START</a>
+            <script src="/static/js/semaforo.js"></script>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center text-center ">
+                <div id="botton">
+                    <a>
+                        <input type="button" name="btn" id="guessBtn" value="START" class="defaultBg">
+                    </a>
                 </div>
             </div>
         </div>
